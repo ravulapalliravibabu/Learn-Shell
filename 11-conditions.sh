@@ -15,7 +15,7 @@ echo "installation failed"
 exit 1
 else
 echo "installation completed"
-
+fi
 dnf install mysqlll -y
 
 if [ $? -ne 0 ]; then 
@@ -23,3 +23,4 @@ echo "installation failed"
 exit 1
 else
 echo "installation completed"
+fi
