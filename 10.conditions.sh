@@ -14,3 +14,5 @@ elif [ $marks -lt 70 ]; then
 else 
 echo "distncation"
 fi
+
+echo "end"
